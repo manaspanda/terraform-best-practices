@@ -23,7 +23,7 @@
 * Resource Graph: Parallel and serial execution
 * Change Automation: Complex changeset, clone deployments
 
-## What is Terraform Module
+## Terraform Best Practices
 
 ### Remote backend to save state
 Terraform saves the infrastructure deployment state in terraform state files. Save the terraform state files in remote backend, such as S3.
@@ -71,7 +71,7 @@ Always review the plan with team, before applying the infrastructure changes.
 Following are some of the best practices to create good terraform modules:
 
 * Create meaningful abstractions
-* Recommended module repo name: terraform-<provider>-<name>
+* Recommended module repo name: `terraform-<provider>-<name>`
 * Follow standard module structure
 * Semantically version (x.y.z) modules: git tags
 * Include usage examples
